@@ -36,7 +36,7 @@ async def on_message(message):
 			co = len(prefixo)
 			co2 = co + 5 # coloque aqui o números de letras
 			cont2 = str(message.content[co2:]).split()
-			api_key = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5MDk4YmRiMC03NzEyLTAxMzYtZjJmMC01Nzc3ZmRiNmJmOTEiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNTMzMDU3MDM2LCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6ImRpc2NvcmRib3RwdWJnIn0.AlPEy2r-Bz86pf3J4jfe6sVSAtcFNbcjRy6h_guniIg" # Coloque aqui a APi Key
+			api_key = "" # Coloque aqui a APi Key
 			header = {
 				"Authorization": "Bearer {}".format(api_key),
 				"Accept": "application/vnd.api+json"
@@ -80,4 +80,4 @@ async def on_message(message):
 # Link da documentação da API "https://documentation.playbattlegrounds.com/en/introduction.html"
 
 
-client.run("NDIzMjgwNDExODIxNzM1OTM3.DbVnQQ.AcR4hwB6owYJHSNnosI-2zZh51U")
+client.run("Token do bot")
