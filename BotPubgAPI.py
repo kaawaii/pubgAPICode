@@ -36,7 +36,7 @@ async def on_message(message):
 			co = len(prefixo)
 			co2 = co + 5 # coloque aqui o números de letras
 			cont2 = str(message.content[co2:]).split()
-			api_key = "" # Coloque aqui a APi Key
+			api_key = "" # Coloque aqui a APi Key Site para conseguir API KEY: "https://documentation.playbattlegrounds.com/en/api-keys.html"
 			header = {
 				"Authorization": "Bearer {}".format(api_key),
 				"Accept": "application/vnd.api+json"
