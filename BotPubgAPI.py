@@ -78,7 +78,7 @@ async def on_message(message):
 			await client.send_message(message.channel, "{} você não digitou o comando completo".format(message.author.mention))
 # Como falei "melhore o que já esta feito", você está totalmente livre para mudar o que quiser neste comando.
 # Link da documentação da API "https://documentation.playbattlegrounds.com/en/introduction.html"
-# Se você acha que entende um pouco mais programação pode rescrever o código do seu jeito sinta-se a vontade.
+# Se você acha que consegue ou que entende um pouco mais de programação pode rescrever o código do seu jeito sinta-se a vontade.
 
 
 client.run("Token do bot")
