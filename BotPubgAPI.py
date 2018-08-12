@@ -34,7 +34,7 @@ async def on_message(message):
 		try:# caso queira muda o nome do comando tera que muda a variavel co2
 ############# coloque o número de letras do nome do seu comando ex: pubg tem 4
 			co = len(prefixo)
-			co2 = co + 5 # coloque aqui o números de letras
+			co2 = co + 1 + 4 # coloque aqui o números de letras
 			cont2 = str(message.content[co2:]).split()
 			api_key = "" # Coloque aqui a APi Key Site para conseguir API KEY: "https://documentation.playbattlegrounds.com/en/api-keys.html"
 			header = {
